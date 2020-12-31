@@ -12,3 +12,5 @@ server.applyMiddleware({ app });
 app.listen({ port }, () =>
     console.log(`API Gateway started at http://localhost:${port}${server.graphqlPath} `)
 );
+
+// NodeJSMicroserviceQ

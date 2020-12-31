@@ -1,6 +1,6 @@
-const { PORT } = process.env;
+const { PORT, MONGO_URI } = process.env;
 
 module.exports = {
     port: PORT || 4000,
-    mongoURI: 'mongodb+srv://userAndrii:KLJEASvSfPAzdiII@cluster0.zxmde.mongodb.net/microservice?retryWrites=true&w=majority'
+    mongoURI: MONGO_URI
 }
